@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,600;1,700&family=PT+Serif:ital,wght@1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ******************* header ****************** */
+header {
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+}
+header li {
+    float: right;
+    font-size: 1em;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 15px 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* ******************** navbar *********************** */
+nav {
+    overflow: hidden;
+    background-color: #141401;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+#logo {
+    float: left;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: 'Lora', serif;
+}
+#logo a {
+    color: #1a01f7;
+    text-shadow: 2px 2px 2px #fffb00;
+}
+#logo a:hover{
+    color: #ffffff;
+    transition: 0.1s;
+}
+#c a:hover {
+    color: #fafa00;
+}
+#i a:hover {
+    color: rgb(0, 255, 0);
+}
+#d a:hover {
+    color: red;
+}
+#n a:hover {
+    color: #eff0a8;
+}
+
+/* **************** titre********************* */
+#titre {
+    padding-top: 70px;
+    background: url(pexels-pixabay-39584.jpg) no-repeat fixed 30% 30%;
+    background-size: cover;
+    height: 700px;
+}
+#titre h2 {
+    font-family: 'PT Serif', serif;
+    color: #6e6404;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 100px;
+    text-shadow: 2px 4px 2px #fffb00;
+}
+
+/* *************** body **************** */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #ebeab6;
+}
+body li {
+    list-style: circle;
+    list-style-type: circle;
+}
+body p, li {
+    font-size: 17pt;
+    padding: 10px 2% 0px 2%;
+}
+body a {
+    cursor: pointer;
+    color: #01705e;
+    text-decoration: none;
+    font-size: 15pt;
+}
+body a:hover {
+    color:#990000;
+}
+body h2 {
+    text-align: center;
+    font-size: 30pt;
+    padding: 10px 0px;
+    text-shadow: 1px 1px 1px #fbff00;
+}
+body h3 {
+    text-align: center;
+    font-size: 20pt;
+    padding: 10px 0px;
+}
+body h4 {
+    font-size: 15pt;
+    text-align: left;
+    padding: 10px 0px 0px 6%;
+}
+body p, body h2, body h3, body h4 {
+    margin: 5px 0px 5px 0px;
+}
+h2, h3, h4 {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/* ********************* footer ********************** */
+footer {
+    background-color: #eff0a8;
+    color: #000000;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button {
+    width: 55%;
+    border: none;
+    padding: 15px 10px;
+    margin: 2px 0;
+    font-size: 1.2em;
+    font-family: 'Playfair Display', serif;
+    border-radius: 8px;
+}
+textarea {
+    height: 180px;
+}
+button {
+    font-size: 1.5em;
+    background-color: #dcdfec;
+}
+button:hover {
+    background-color: #fffb00;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#Trait-2 {
+    height: 2px;
+    width: 75%;
+    background-color: #e8bf07;
+    box-shadow: 1px 1px 1px #ffffff;
+    margin: 60px auto;
+}
+#copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: #000000;
+    font-size: 14pt;
+}
+#icons {
+    width: 50%;
+    text-align: right;
+}
+#icons a {
+    display: inline-flex;
+    padding: 0 20px;
+    font-size: 1.5em;
+    color: #eeff00;
+    float: right;
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+    color: #ffffff;
+}
